@@ -1,64 +1,131 @@
-## cpp-blind-75
+# LeetCode Blind 75
 
-This folder contains all cpp solutions for _cpp-blind-75_.
+**Blind 75** is a term often used in competitive programming and coding interviews. It refers to a curated list of 75 coding problems or questions that cover a wide range of topics and difficulty levels. These problems are commonly used by candidates preparing for technical interviews at tech companies like Google, Facebook, Amazon, Microsoft, and others.
 
-Files with suffix `_std` uses _input.txt_ and _output.txt_ as STDIN and STDOUT (used in OnlineJudge).
+The purpose of the Blind 75 list is to help candidates practice and improve their problem-solving skills in preparation for coding interviews. The problems cover various data structures, algorithms, and concepts such as arrays, linked lists, trees, dynamic programming, graphs, sorting, searching, and more.
 
-| SL NO. | PROGRAM NAME | DATE |
-| :----: | --------- | :-----: |
-| 01 | [Array - Two Sum](<01_Array_-_Two_Sum.cpp>) | 27-07-2023 |
-| 02 | [Array -  Best Time to Buy and Sell Stock](<02_Array_-__Best_Time_to_Buy_and_Sell_Stock.cpp>) | 27-07-2023 |
-| 03 | [Array - Contains Duplicate](<03_Array_-_Contains_Duplicate.cpp>) | 27-07-2023 |
-| 04 | [Array - Product of Array Except Self](<04_Array_-_Product_of_Array_Except_Self.cpp>) | 27-07-2023 |
-| 05 | [Array - Maximum Subarray](<05_Array_-_Maximum_Subarray.cpp>) | 28-07-2023 |
-| 06 | [Array - Maximum Product SubArray](<06_Array_-_Maximum_Product_SubArray.cpp>) | 28-July-2023 | 
-| 07 | [Array - Find Minimum in Rotated Sorted Array](<07_Array_-_Find_Minimum_in_Rotated_Sorted_Array.cpp>) | 28-July-2023 | 
-| 08 | [Array - Search in Rotated Sorted Array](<08_Array_-_Search_in_Rotated_Sorted_Array.cpp>) | 28-July-2023 | 
-| 09 | [Array - 3Sum](<09_Array_-_3Sum.cpp>) | 28-July-2023 | 
-| 10 | [Array - Container With Most Water](<10_Array_-_Container_With_Most_Water.cpp>) | 28-July-2023 | 
-| 11 | [Binary - Sum of Two Integers](<11_Binary_-_Sum_of_Two_Integers.cpp>) | 28-July-2023 | 
-| 12 | [Binary - Number of 1 Bits](<12_Binary_-_Number_of_1_Bits.cpp>) | 28-July-2023 | 
-| 13 | [Binary - Counting Bits](<13_Binary_-_Counting_Bits.cpp>) | 28-July-2023 | 
-| 14 | [Binary - Missing Number](<14_Binary_-_Missing_Number.cpp>) | 28-July-2023 | 
-| 15 | [Binary - Reverse Bits](<15_Binary_-_Reverse_Bits.cpp>) | 28-July-2023 | 
-| 16 | [Matrix - Set Matrix Zeroes](<16_Matrix_-_Set_Matrix_Zeroes.cpp>) | 29-July-2023 | 
-| 17 | [Matrix - Spiral Matrix](<17_Matrix_-_Spiral_Matrix.cpp>) | 29-July-2023 | 
-| 18 | [Matrix - Rotate Image](<18_Matrix_-_Rotate_Image.cpp>) | 29-July-2023 | 
-| 19 | [Matrix - Word Search](<19_Matrix_-_Word_Search.cpp>) | 29-July-2023 | 
-| 20 | [Linked List - Reverse Linked List](<20_Linked_List_-_Reverse_Linked_List.cpp>) | 02-August-2023 | 
-| 21 | [Linked List - Linked List Cycle](<21_Linked_List_-_Linked_List_Cycle.cpp>) | 02-August-2023 | 
-| 22 | [Linked List - Merge Two Sorted Lists](<22_Linked_List_-_Merge_Two_Sorted_Lists.cpp>) | 02-August-2023 | 
-| 23 | [Linked List - Merge k Sorted Lists](<23_Linked_List_-_Merge_k_Sorted_Lists.cpp>) | 02-Aug-2023 | 
-| 24 | [Linked List - Remove Nth Node From End of List](<24_Linked_List_-_Remove_Nth_Node_From_End_of_List.cpp>) | 02-Aug-2023 | 
-| 25 | [Linked List - Reorder List](<25_Linked_List_-_Reorder_List.cpp>) | 02-Aug-2023 | 
-| 26 | [String - Longest Substring Without Repeating Characters](<26_String_-_Longest_Substring_Without_Repeating_Characters.cpp>) | 03-Aug-2023 | 
-| 27 | [String - Longest Repeating Character Replacement](<27_String_-_Longest_Repeating_Character_Replacement.cpp>) | 03-Aug-2023 | 
-| 28 | [String - Minimum Window Substring](<28_String_-_Minimum_Window_Substring.cpp>) | 03-Aug-2023 | 
-| 29 | [String - Valid Anagram](<29_String_-_Valid_Anagram.cpp>) | 05-Aug-2023 | 
-| 30 | [String - Group Anagrams](<30_String_-_Group_Anagrams.cpp>) | 05-Aug-2023 | 
-| 31 | [String - Valid Parentheses](<31_String_-_Valid_Parentheses.cpp>) | 05-Aug-2023 | 
-| 32 | [String - Valid Palindrome](<32_String_-_Valid_Palindrome.cpp>) | 05-Aug-2023 | 
-| 33 | [String - Longest Palindromic Substring](<33_String_-_Longest_Palindromic_Substring.cpp>) | 05-Aug-2023 | 
-| 34 | [String - Palindromic Substrings](<34_String_-_Palindromic_Substrings.cpp>) | 05-Aug-2023 | 
-| 35 | [String - Encode and Decode Strings](<35_String_-_Encode_and_Decode_Strings.cpp>) | 05-Aug-2023 | 
-| 36 | [Heap - Top K Frequent Elements_Bucket Sort](<36_Heap_-_Top_K_Frequent_Elements_Bucket_Sort.cpp>) | 06-Aug-2023 | 
-| 37 | [Heap - Find Median from Data Stream](<37_Heap_-_Find_Median_from_Data_Stream.cpp>) | 06-Aug-2023 | 
-| 38 | [Interval - Insert Interval](<38_Interval_-_Insert_Interval.cpp>) | 06-Aug-2023 | 
-| 39 | [Interval - Merge Intervals](<39_Interval_-_Merge_Intervals.cpp>) | 06-Aug-2023 | 
-| 40 | [Interval - Non-overlapping Intervals](<40_Interval_-_Non-overlapping_Intervals.cpp>) | 06-Aug-2023 | 
-| 41 | [Interval - Meeting Rooms](<41_Interval_-_Meeting_Rooms.cpp>) | 06-Aug-2023 | 
-| 42 | [Interval - Meeting Rooms II](<42_Interval_-_Meeting_Rooms_II.cpp>) | 06-Aug-2023 | 
-| 43 | [Tree - Maximum Depth of Binary Tree](<43_Tree_-_Maximum_Depth_of_Binary_Tree.cpp>) | 06-Aug-2023 | 
-| 44 | [Tree - Same Tree](<44_Tree_-_Same_Tree.cpp>) | 07-Aug-2023 | 
-| 45 | [Tree - Invert Binary Tree](<45_Tree_-_Invert_Binary_Tree.cpp>) | 07-Aug-2023 | 
-| 46 | [Tree - Binary Tree Maximum Path Sum](<46_Tree_-_Binary_Tree_Maximum_Path_Sum.cpp>) | 07-Aug-2023 | 
-| 47 | [Tree - Binary Tree Level Order Traversal](<47_Tree_-_Binary_Tree_Level_Order_Traversal.cpp>) | 07-Aug-2023 | 
-| 48 | [Tree - Serialize and Deserialize Binary Tree](<48_Tree_-_Serialize_and_Deserialize_Binary_Tree.cpp>) | 07-Aug-2023 | 
-| 49 | [Tree - Subtree of Another Tree](<49_Tree_-_Subtree_of_Another_Tree.cpp>) | 07-Aug-2023 | 
-| 50 | [Tree - Construct Binary Tree from Preorder and Inorder Traversal](<50_Tree_-_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.cpp>) | 07-Aug-2023 | 
-| 51 | [Tree - Validate Binary Search Tree](<51_Tree_-_Validate_Binary_Search_Tree.cpp>) | 07-Aug-2023 | 
-| 52 | [Tree - Kth Smallest Element in a BST](<52_Tree_-_Kth_Smallest_Element_in_a_BST.cpp>) | 07-Aug-2023 | 
-| 53 | [Tree - Lowest Common Ancestor of BST](<53_Tree_-_Lowest_Common_Ancestor_of_BST.cpp>) | 07-Aug-2023 | 
-| 54 | [Tree - Implement Trie (Prefix Tree)](<54_Tree_-_Implement_Trie_(Prefix_Tree).cpp>) | 07-Aug-2023 | 
-| 55 | [Tree - Add and Search Word](<55_Tree_-_Add_and_Search_Word.cpp>) | 08-Aug-2023 | 
-| 56 | [Tree - Word Search II](<56_Tree_-_Word_Search_II.cpp>) | 08-Aug-2023 | 
+## List Of Problems in blind75:
+
+### Array
+
+- Two Sum - https://leetcode.com/problems/two-sum/ ✅
+- Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ ✅
+- Contains Duplicate - https://leetcode.com/problems/contains-duplicate/ ✅
+- Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/ ✅
+- Maximum Subarray - https://leetcode.com/problems/maximum-subarray/ ✅
+- Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/ ✅
+- Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ ✅
+- Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/ ✅
+- 3Sum - https://leetcode.com/problems/3sum/ ✅
+- Container With Most Water - https://leetcode.com/problems/container-with-most-water/ ✅
+
+---
+
+### Binary
+
+- Sum of Two Integers - https://leetcode.com/problems/sum-of-two-integers/ ✅
+- Number of 1 Bits - https://leetcode.com/problems/number-of-1-bits/ ✅
+- Counting Bits - https://leetcode.com/problems/counting-bits/ ✅
+- Missing Number - https://leetcode.com/problems/missing-number/ ✅
+- Reverse Bits - https://leetcode.com/problems/reverse-bits/ ✅
+
+---
+
+### Dynamic Programming
+
+- Climbing Stairs - https://leetcode.com/problems/climbing-stairs/ ✅
+- Coin Change - https://leetcode.com/problems/coin-change/ ✅
+- Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/ ✅
+- Longest Common Subsequence - https://leetcode.com/problems/longest-common-subsequence/ ✅
+- Word Break Problem - https://leetcode.com/problems/word-break/ ✅
+- Combination Sum - https://leetcode.com/problems/combination-sum-iv/ ✅
+- House Robber - https://leetcode.com/problems/house-robber/ ✅
+- House Robber II - https://leetcode.com/problems/house-robber-ii/ ✅
+- Decode Ways - https://leetcode.com/problems/decode-ways/ ✅
+- Unique Paths - https://leetcode.com/problems/unique-paths/ ✅
+- Jump Game - https://leetcode.com/problems/jump-game/ ✅
+
+---
+
+### Graph
+
+- Clone Graph - https://leetcode.com/problems/clone-graph/
+- Course Schedule - https://leetcode.com/problems/course-schedule/
+- Pacific Atlantic Water Flow - https://leetcode.com/problems/pacific-atlantic-water-flow/
+- Number of Islands - https://leetcode.com/problems/number-of-islands/ ✅
+- Longest Consecutive Sequence - https://leetcode.com/problems/longest-consecutive-sequence/
+- Alien Dictionary (Leetcode Premium) - https://leetcode.com/problems/alien-dictionary/
+- Graph Valid Tree (Leetcode Premium) - https://leetcode.com/problems/graph-valid-tree/
+- Number of Connected Components in an Undirected Graph (Leetcode Premium) - https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+
+---
+
+### Interval
+
+- Insert Interval - https://leetcode.com/problems/insert-interval/ ✅
+- Merge Intervals - https://leetcode.com/problems/merge-intervals/ ✅
+- Non-overlapping Intervals - https://leetcode.com/problems/non-overlapping-intervals/ ✅
+- Meeting Rooms (Leetcode Premium) - https://leetcode.com/problems/meeting-rooms/
+- Meeting Rooms II (Leetcode Premium) - https://leetcode.com/problems/meeting-rooms-ii/
+
+---
+
+### Linked List
+
+- Reverse a Linked List - https://leetcode.com/problems/reverse-linked-list/ ✅
+- Detect Cycle in a Linked List - https://leetcode.com/problems/linked-list-cycle/ ✅
+- Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists/ ✅
+- Merge K Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists/
+- Remove Nth Node From End Of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list/ ✅
+- Reorder List - https://leetcode.com/problems/reorder-list/ ✅
+
+---
+
+### Matrix
+
+- Set Matrix Zeroes - https://leetcode.com/problems/set-matrix-zeroes/ ✅
+- Spiral Matrix - https://leetcode.com/problems/spiral-matrix/ ✅
+- Rotate Image - https://leetcode.com/problems/rotate-image/ ✅
+- Word Search - https://leetcode.com/problems/word-search/ ✅
+
+---
+
+### String
+
+- Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters/ ✅
+- Longest Repeating Character Replacement - https://leetcode.com/problems/longest-repeating-character-replacement/ ✅
+- Minimum Window Substring - https://leetcode.com/problems/minimum-window-substring/ ✅
+- Valid Anagram - https://leetcode.com/problems/valid-anagram/ ✅
+- Group Anagrams - https://leetcode.com/problems/group-anagrams/ ✅
+- Valid Parentheses - https://leetcode.com/problems/valid-parentheses/ ✅
+- Valid Palindrome - https://leetcode.com/problems/valid-palindrome/ ✅
+- Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring/ ✅
+- Palindromic Substrings - https://leetcode.com/problems/palindromic-substrings/ ✅
+- Encode and Decode Strings (Leetcode Premium) - https://leetcode.com/problems/encode-and-decode-strings/ ✅
+
+---
+
+### Tree
+
+- Maximum Depth of Binary Tree - https://leetcode.com/problems/maximum-depth-of-binary-tree/ ✅
+- Same Tree - https://leetcode.com/problems/same-tree/ ✅
+- Invert/Flip Binary Tree - https://leetcode.com/problems/invert-binary-tree/ ✅
+- Binary Tree Maximum Path Sum - https://leetcode.com/problems/binary-tree-maximum-path-sum/
+- Binary Tree Level Order Traversal - https://leetcode.com/problems/binary-tree-level-order-traversal/
+- Serialize and Deserialize Binary Tree - https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+- Subtree of Another Tree - https://leetcode.com/problems/subtree-of-another-tree/
+- Construct Binary Tree from Preorder and Inorder Traversal - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+- Validate Binary Search Tree - https://leetcode.com/problems/validate-binary-search-tree/
+- Kth Smallest Element in a BST - https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+- Lowest Common Ancestor of BST - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+- Implement Trie (Prefix Tree) - https://leetcode.com/problems/implement-trie-prefix-tree/
+- Add and Search Word - https://leetcode.com/problems/add-and-search-word-data-structure-design/
+- Word Search II - https://leetcode.com/problems/word-search-ii/
+
+---
+
+### Heap
+
+- Merge K Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists/
+- Top K Frequent Elements - https://leetcode.com/problems/top-k-frequent-elements/
+- Find Median from Data Stream - https://leetcode.com/problems/find-median-from-data-stream/
